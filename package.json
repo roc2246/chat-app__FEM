@@ -1,0 +1,23 @@
+{
+  "name": "chat-app-css-illustration-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roc2246/chat-app__FEM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roc2246/chat-app__FEM/issues"
+  },
+  "homepage": "https://github.com/roc2246/chat-app__FEM#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
