@@ -1,0 +1,14 @@
+:root{
+    @each $name, $size in $display {
+        --display-#{$name}: #{rem($size)};
+      };
+    
+    @include colorCP(text);
+    @include colorCP(gradient);
+    @include colorCP(secondary);
+    }
+
+html{
+    font-size: $font-size;
+    font-family: $font-family;
+}

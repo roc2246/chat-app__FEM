@@ -1,0 +1,5 @@
+@mixin colorCP ($cat) {
+    @each $color, $name in map-get($color, $cat) {
+        --color-#{$color}: #{$name};
+      }
+}

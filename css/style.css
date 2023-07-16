@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+:root {
+  --display-mobile: 23.4375rem;
+  --display-desktop: 90rem;
+  --color-pale-violet: #d89eff;
+  --color-moderate-violet: #9241c8;
+  --color-desaturated-dark-violet: #6e5d7e;
+  --color-grayish-blue: #c6cacd;
+  --color-very-dark-desaturated-blue: #3e2753;
+  --color-dark-grayish-violet: #a39daa;
+  --color-light-magenta: #e942ff;
+  --color-light-violet: #8838ff;
+  --color-white: white;
+  --color-light-grayish-violet: #f5f3f7;
+  --color-very-dark-desaturated-violet: #3e2753;
+  --color-very-light-magenta: #e570ff; }
+
+html {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif; }
