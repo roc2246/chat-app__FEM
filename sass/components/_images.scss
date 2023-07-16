@@ -1,0 +1,14 @@
+.avatar{
+    width: 2rem;
+    height: auto;
+    border-radius: 50%;
+    border-width: .5rem;
+}
+
+.mssg{
+    &__img{
+        width: 3rem;
+        height: auto;
+        border-radius: .75rem;
+    }
+}

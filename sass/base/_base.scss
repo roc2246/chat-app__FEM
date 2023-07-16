@@ -6,6 +6,11 @@
     @include colorCP(text);
     @include colorCP(gradient);
     @include colorCP(secondary);
+
+    @each $weight, $name in $font-weight {
+        --font-weight-#{$weight}: #{$name};
+      }
+
     }
 
 html{
