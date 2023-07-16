@@ -1,12 +1,21 @@
+.phone-wrapper{
+background-color: var(--color-light-grayish-violet);
+}
+
 .avatar{
     border-color: var(--color-white);
 }
 
 .mssg{
     &--recipient{
-        background-color: var(--color-light-grayish-violet);
+        background-color: #ede5f4;
+    }
+    &--user{
+        background-color: var(--color-white);
     }
     &__paragraph{
-        color: var(--color-moderate-violet);
+        &--recipient{
+            color: var(--color-moderate-violet);
+        }
     }
 }
