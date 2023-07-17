@@ -39,6 +39,12 @@ button {
   max-width: 8.75rem;
   font-size: 0.625rem; }
 
+.offer__option {
+  font-size: 0.625rem; }
+
+.offer__price {
+  font-size: 1.125rem; }
+
 .avatar {
   width: 1.375rem;
   height: auto;
@@ -59,10 +65,6 @@ button {
   width: max-content;
   height: auto;
   padding: 0.5rem; }
-  .mssg--recipient {
-    float: left; }
-  .mssg--user {
-    float: right; }
 
 .phone {
   border-radius: 1.5rem;
@@ -72,6 +74,9 @@ button {
 
 .phone-wrapper {
   padding: auto; }
+
+.txt-input {
+  display: none; }
 
 .phone-wrapper {
   background-color: var(--color-light-grayish-violet); }
