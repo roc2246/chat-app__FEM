@@ -4,6 +4,7 @@
 
 .mssg {
   &__paragraph {
+    max-width: rem(125px);
     font-size: rem(10px);
   }
 }
