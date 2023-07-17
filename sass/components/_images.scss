@@ -5,6 +5,12 @@
     border-width: .5rem;
 }
 
+.img-box{
+    &--user{
+        float: right;
+    }
+}
+
 .mssg{
     &__img{
         width: rem(37px);

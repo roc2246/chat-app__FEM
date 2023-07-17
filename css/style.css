@@ -45,6 +45,9 @@ button {
   border-radius: 50%;
   border-width: .5rem; }
 
+.img-box--user {
+  float: right; }
+
 .mssg__img {
   width: 2.3125rem;
   height: auto;
@@ -56,6 +59,10 @@ button {
   width: max-content;
   height: auto;
   padding: 0.5rem; }
+  .mssg--recipient {
+    float: left; }
+  .mssg--user {
+    float: right; }
 
 .phone {
   border-radius: 1.5rem;
