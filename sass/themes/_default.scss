@@ -1,21 +1,41 @@
-.phone-wrapper{
-background-color: var(--color-light-grayish-violet);
+.phone-wrapper {
+  background-color: var(--color-light-grayish-violet);
 }
 
-.avatar{
-    border-color: var(--color-white);
+.avatar {
+  border-color: var(--color-white);
 }
 
-.mssg{
-    &--recipient{
-        background-color: #ede5f4;
+.mssg {
+  &--recipient {
+    background-color: #ede5f4;
+  }
+  &--user {
+    background-color: var(--color-white);
+  }
+  &__paragraph {
+    &--recipient {
+      color: var(--color-moderate-violet);
     }
-    &--user{
-        background-color: var(--color-white);
-    }
-    &__paragraph{
-        &--recipient{
-            color: var(--color-moderate-violet);
-        }
+  }
+}
+
+.offer {
+  background-image: linear-gradient(
+    to right,
+    var(--color-light-magenta),
+    var(--color-light-violet)
+  );
+  &__option {
+    color: var(--color-white);
+  }
+  &__price {
+    color: var(--color-white);
+  }
+}
+
+.btn{
+    &--select{
+        border-color: var(--color-white);
     }
 }

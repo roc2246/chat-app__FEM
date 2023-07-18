@@ -1,0 +1,10 @@
+.btn {
+  &--select {
+    float: left;
+    margin-right: auto;
+
+    border: solid;
+    border-width: .1rem;
+    border-radius: 50%;
+  }
+}

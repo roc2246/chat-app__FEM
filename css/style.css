@@ -47,6 +47,13 @@ button {
   font-size: 1.125rem;
   float: right; }
 
+.btn--select {
+  float: left;
+  margin-right: auto;
+  border: solid;
+  border-width: .1rem;
+  border-radius: 50%; }
+
 .avatar {
   width: 1.375rem;
   height: auto;
@@ -112,3 +119,13 @@ button {
 
 .mssg__paragraph--recipient {
   color: var(--color-moderate-violet); }
+
+.offer {
+  background-image: linear-gradient(to right, var(--color-light-magenta), var(--color-light-violet)); }
+  .offer__option {
+    color: var(--color-white); }
+  .offer__price {
+    color: var(--color-white); }
+
+.btn--select {
+  border-color: var(--color-white); }
