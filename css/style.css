@@ -76,7 +76,13 @@ button {
   padding: 0.5rem; }
 
 .offer {
-  width: 10rem; }
+  padding: .25rem;
+  width: 10rem;
+  margin-top: .5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: .25rem; }
 
 .phone {
   border-radius: 1.5rem;
