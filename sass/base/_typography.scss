@@ -12,8 +12,10 @@
 .offer{
   &__option{
     font-size: rem(10px);
+  float: left;
   }
   &__price{
     font-size: rem(18px);
+    float: right;
   }
 }
