@@ -3,6 +3,10 @@
     // grid-template-columns: repeat(3, auto);
 }
 
+.recipient{
+    grid-column: 1/4;
+}
+
 .mssg{
     &--recipient{
         grid-column: 1/3;

@@ -99,6 +99,9 @@ button {
 .phone-wrapper {
   display: grid; }
 
+.recipient {
+  grid-column: 1/4; }
+
 .mssg--recipient {
   grid-column: 1/3; }
 
@@ -116,6 +119,9 @@ button {
 
 .avatar {
   border-color: var(--color-white); }
+
+.recipient {
+  background-image: linear-gradient(to right, var(--color-light-violet), var(--color-light-magenta)); }
 
 .mssg--recipient {
   background-color: #ede5f4; }
