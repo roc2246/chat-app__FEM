@@ -1,8 +1,10 @@
 .avatar{
     width: rem(22px);
     height: auto;
-    border-radius: 50%;
-    border-width: .5rem;
+
+    border: solid;
+    border-radius: 1rem;
+    border-width: .15rem;
 
     display: block;
     margin-top: auto;

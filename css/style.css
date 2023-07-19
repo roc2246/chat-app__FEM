@@ -52,13 +52,14 @@ button {
   margin-right: auto;
   border: solid;
   border-width: .1rem;
-  border-radius: 50%; }
+  border-radius: 1rem; }
 
 .avatar {
   width: 1.375rem;
   height: auto;
-  border-radius: 50%;
-  border-width: .5rem;
+  border: solid;
+  border-radius: 1rem;
+  border-width: .15rem;
   display: block;
   margin-top: auto;
   margin-bottom: auto; }
@@ -137,14 +138,26 @@ button {
 .offer {
   grid-column: 1/3; }
 
+.btn--back {
+  color: var(--color-white); }
+
+.btn--menu {
+  color: var(--color-white); }
+
 .phone-wrapper {
   background-color: var(--color-light-grayish-violet); }
+
+.recipient {
+  background-image: linear-gradient(to right, var(--color-light-violet), var(--color-light-magenta)); }
 
 .avatar {
   border-color: var(--color-white); }
 
-.recipient {
-  background-image: linear-gradient(to right, var(--color-light-violet), var(--color-light-magenta)); }
+.username {
+  color: var(--color-white); }
+
+.availability {
+  color: var(--color-white); }
 
 .mssg--recipient {
   background-color: #ede5f4; }
