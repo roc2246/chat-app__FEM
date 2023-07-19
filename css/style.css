@@ -89,22 +89,44 @@ button {
   border-bottom-left-radius: .25rem; }
 
 .phone {
+  padding: .5rem;
   border-radius: 1.5rem;
   border: solid;
   border-color: red;
-  width: 15.3125rem; }
-
-.phone-wrapper {
-  padding: auto; }
+  width: max-content; }
+  .phone__speaker {
+    width: 8rem;
+    height: 1.25rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem; }
 
 .recipient {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
   padding-top: 2rem;
   padding-bottom: 1rem; }
+
+.phone-wrapper {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem; }
 
 .txt-input {
   display: none; }
 
+.phone {
+  display: grid; }
+
+.phone__speaker {
+  z-index: 1;
+  grid-column: 2/3;
+  grid-row: 1/2; }
+
 .phone-wrapper {
+  z-index: 0;
+  grid-column: 1/4;
+  grid-row: 1/4;
   display: grid; }
 
 .recipient {
@@ -143,6 +165,9 @@ button {
 
 .btn--menu {
   color: var(--color-white); }
+
+.phone__speaker {
+  background-color: var(--color-white); }
 
 .phone-wrapper {
   background-color: var(--color-light-grayish-violet); }

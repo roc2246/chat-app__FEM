@@ -1,4 +1,18 @@
+.phone{
+    display: grid;
+}
+
+.phone__speaker{
+    z-index: 1;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 .phone-wrapper{
+    z-index: 0;
+    grid-column: 1/4;
+    grid-row: 1/4;
+
     display: grid;
     // grid-template-columns: repeat(3, auto);
 }
@@ -7,7 +21,6 @@
     grid-column: 1/4;
 
     display: grid;
-//  height: 4rem;
     .btn--back{
         grid-column: 1/2;
         grid-row: 1/3;

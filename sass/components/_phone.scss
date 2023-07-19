@@ -1,19 +1,36 @@
 .phone {
+  padding: .5rem;
   border-radius: 1.5rem;
   border: solid;
   border-color: red;
-  width: rem(245px);
+  width: max-content;
+
+  &__speaker {
+    width: 8rem;
+    height: 1.25rem;
+
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+  }
 }
 
-.phone-wrapper{
-    padding:auto;
-}
+.recipient {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
 
-.recipient{
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
-.txt-input{
+.phone-wrapper {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+
+border-bottom-left-radius: 1.5rem;
+border-bottom-right-radius: 1.5rem;
+
+}
+
+.txt-input {
   display: none;
 }
