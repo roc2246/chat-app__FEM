@@ -6,8 +6,8 @@
   width: max-content;
 
   &__speaker {
-    width: 8rem;
-    height: 1.25rem;
+    width: rem(128px);
+    height: rem(18px);
 
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
