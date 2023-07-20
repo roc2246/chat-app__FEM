@@ -46,6 +46,9 @@ button {
 .offer__price {
   font-size: 1.125rem; }
 
+.txt-input {
+  font-size: 0.75rem; }
+
 .btn--select {
   border: solid;
   border-width: .1rem;
@@ -66,10 +69,13 @@ button {
   height: auto;
   border-radius: .75rem; }
 
-.img-box--user {
-  margin-left: auto; }
+.img-box {
+  margin: .5rem .5rem 0 .5rem; }
+  .img-box--user {
+    margin-left: auto; }
 
 .mssg {
+  margin: .5rem .5rem 0 .5rem;
   border-radius: 0.5rem;
   width: max-content;
   height: auto;
@@ -78,6 +84,7 @@ button {
     margin-left: auto; }
 
 .offer {
+  margin: .5rem .5rem 0 .5rem;
   padding: .25rem;
   width: 10rem;
   border-top-left-radius: 1rem;
@@ -114,7 +121,8 @@ button {
   padding-bottom: 1rem; }
 
 .txt-input {
-  width: 14.0625rem;
+  margin: .5rem;
+  height: 0.75rem;
   border-radius: 2rem;
   padding: 1rem; }
 
@@ -128,7 +136,8 @@ button {
 .txt-input {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
 .phone {
   display: grid; }
@@ -142,7 +151,8 @@ button {
   z-index: 0;
   grid-column: 1/4;
   grid-row: 1/4;
-  display: grid; }
+  display: grid;
+  grid-template-columns: repeat(3, 5rem); }
 
 .recipient {
   grid-column: 1/4;
@@ -226,3 +236,5 @@ button {
 
 .txt-input {
   background-color: var(--color-white); }
+  .txt-input__mssg {
+    color: var(--color-light-grayish-violet); }

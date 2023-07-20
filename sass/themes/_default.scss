@@ -1,26 +1,25 @@
-.btn{
-  &--back{
+.btn {
+  &--back {
     color: var(--color-white);
   }
-  &--menu{
+  &--menu {
     color: var(--color-white);
   }
 }
 
-.phone{
+.phone {
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.26);
 }
 
-.phone__speaker{
-background-color: var(--color-white);
+.phone__speaker {
+  background-color: var(--color-white);
 }
 
 .phone-wrapper {
   background-color: var(--color-light-grayish-violet);
 }
 
-
-.recipient{
+.recipient {
   background-image: linear-gradient(
     to right,
     var(--color-light-violet),
@@ -32,12 +31,11 @@ background-color: var(--color-white);
   border-color: var(--color-white);
 }
 
-
-.username{
+.username {
   color: var(--color-white);
 }
 
-.availability{
+.availability {
   color: var(--color-white);
 }
 
@@ -69,14 +67,15 @@ background-color: var(--color-white);
   }
 }
 
-.btn{
-    &--select{
-        border-color: var(--color-white);
-    }
+.btn {
+  &--select {
+    border-color: var(--color-white);
+  }
 }
 
-
-.txt-input{
+.txt-input {
   background-color: var(--color-white);
-
+  &__mssg {
+    color: var(--color-light-grayish-violet);
+  }
 }
