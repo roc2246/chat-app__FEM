@@ -176,6 +176,9 @@ button {
 .btn--menu {
   color: var(--color-white); }
 
+.phone {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.26); }
+
 .phone__speaker {
   background-color: var(--color-white); }
 
