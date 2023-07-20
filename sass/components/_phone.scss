@@ -1,6 +1,6 @@
 .phone {
-  padding: 0.5rem;
-  border-radius: 1.5rem;
+  padding: rem(8px);
+  border-radius: 1.75rem;
   border: solid;
   border-color: red;
   width: max-content;
@@ -14,20 +14,24 @@
   }
 }
 
+.phone-wrapper {
+  width: rem(225px);
+
+  border-top-left-radius: 1.75rem;
+  border-top-right-radius: 1.75rem;
+
+  border-bottom-left-radius: 1.75rem;
+  border-bottom-right-radius: 1.75rem;
+}
+
 .recipient {
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  width: rem(225px);
+
+  border-top-left-radius: 1.75rem;
+  border-top-right-radius: 1.75rem;
 
   padding-top: 2rem;
   padding-bottom: 1rem;
-}
-
-.phone-wrapper {
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
 }
 
 .txt-input {

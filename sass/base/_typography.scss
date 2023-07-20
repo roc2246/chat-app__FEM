@@ -4,14 +4,15 @@
 
 .mssg {
   &__paragraph {
-    max-width: rem(140px);
-    font-size: rem(10px);
+    line-height: .7rem;
+    max-width: rem(110px);
+    font-size: rem(8px);
   }
 }
 
 .offer{
   &__option{
-    font-size: rem(10px);
+    font-size: rem(8px);
   }
   &__price{
     font-size: rem(18px);

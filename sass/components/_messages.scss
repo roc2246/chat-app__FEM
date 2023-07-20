@@ -4,6 +4,10 @@
   width: max-content;
   height: auto;
   padding: 0.5rem;
+
+  &--user{
+    margin-left: auto;
+  }
 }
 
 .offer{
@@ -15,4 +19,8 @@
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: .25rem;
+
+&__price{
+    margin-left: auto;
+}
 }
