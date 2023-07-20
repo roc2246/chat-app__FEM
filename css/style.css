@@ -68,7 +68,7 @@ button {
   margin-bottom: auto; }
 
 .mssg__img {
-  width: 2.3125rem;
+  width: 2.5rem;
   height: auto;
   border-radius: .75rem; }
 
@@ -130,6 +130,11 @@ button {
   height: 0.75rem;
   border-radius: 2rem;
   padding: 1rem; }
+
+.img-box {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem; }
 
 .offer {
   display: flex;

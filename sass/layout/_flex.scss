@@ -1,3 +1,9 @@
+.img-box{
+  display: flex;
+  flex-direction: row;
+  gap: rem(8px);
+}
+
 .offer {
   display: flex;
   flex-direction: row;
