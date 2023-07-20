@@ -1,7 +1,10 @@
 .btn {
   &--select {
     border: solid;
-    border-width: .1rem;
+    border-width: rem(1px);
     border-radius: 1rem;
+
+    width: rem(10px);
+    height: rem(13px);
   }
 }

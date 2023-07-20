@@ -12,12 +12,14 @@
 
 .offer{
   margin: .5rem .5rem 0 .5rem;
-  padding: .25rem;
+  padding-left: .5rem;
+  padding-right: 1rem;
   width: rem(160px);
+  height: rem(34px);
 
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+  border-bottom-right-radius: .75rem;
   border-bottom-left-radius: .25rem;
 
 &__price{

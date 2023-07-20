@@ -44,15 +44,18 @@ button {
   font-size: 0.5rem; }
 
 .offer__price {
-  font-size: 1.125rem; }
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-light); }
 
 .txt-input {
   font-size: 0.75rem; }
 
 .btn--select {
   border: solid;
-  border-width: .1rem;
-  border-radius: 1rem; }
+  border-width: 0.0625rem;
+  border-radius: 1rem;
+  width: 0.625rem;
+  height: 0.8125rem; }
 
 .avatar {
   width: 1.375rem;
@@ -85,11 +88,13 @@ button {
 
 .offer {
   margin: .5rem .5rem 0 .5rem;
-  padding: .25rem;
+  padding-left: .5rem;
+  padding-right: 1rem;
   width: 10rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  height: 2.125rem;
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+  border-bottom-right-radius: .75rem;
   border-bottom-left-radius: .25rem; }
   .offer__price {
     margin-left: auto; }
@@ -129,7 +134,7 @@ button {
 .offer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   gap: 0.5rem; }
 
