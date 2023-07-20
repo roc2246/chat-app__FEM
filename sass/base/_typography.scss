@@ -21,5 +21,7 @@
 }
 
 .txt-input{
-  font-size: rem(12px);
+  &__mssg{
+    font-size: rem(10px);
+  }
 }

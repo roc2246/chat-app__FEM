@@ -47,8 +47,8 @@ button {
   font-size: 0.75rem;
   font-weight: var(--font-weight-light); }
 
-.txt-input {
-  font-size: 0.75rem; }
+.txt-input__mssg {
+  font-size: 0.625rem; }
 
 .btn--select {
   border: solid;
@@ -127,7 +127,7 @@ button {
 
 .txt-input {
   margin: .5rem;
-  height: 0.75rem;
+  height: 0.1875rem;
   border-radius: 2rem;
   padding: 1rem; }
 
