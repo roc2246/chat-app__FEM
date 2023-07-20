@@ -1,0 +1,15 @@
+.offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+gap: .5rem;
+&__price{
+margin-left: auto;
+}
+}
+
+.txt-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

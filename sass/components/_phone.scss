@@ -1,5 +1,5 @@
 .phone {
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 1.5rem;
   border: solid;
   border-color: red;
@@ -26,11 +26,12 @@
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
 
-border-bottom-left-radius: 1.5rem;
-border-bottom-right-radius: 1.5rem;
-
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
 }
 
 .txt-input {
-  display: none;
+  border-radius: 2rem;
+  padding: 1rem;
+
 }
