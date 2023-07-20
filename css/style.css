@@ -112,14 +112,12 @@ button {
     border-bottom-right-radius: 1.5rem; }
 
 .phone-wrapper {
-  width: max-content;
   border-top-left-radius: 1.75rem;
   border-top-right-radius: 1.75rem;
   border-bottom-left-radius: 1.75rem;
   border-bottom-right-radius: 1.75rem; }
 
 .recipient {
-  width: 100%;
   border-top-left-radius: 1.75rem;
   border-top-right-radius: 1.75rem;
   border-bottom-left-radius: .25rem;

@@ -15,7 +15,6 @@
 }
 
 .phone-wrapper {
-  width: max-content;
 
   border-top-left-radius: 1.75rem;
   border-top-right-radius: 1.75rem;
@@ -25,8 +24,6 @@
 }
 
 .recipient {
-  width: 100%;
-
   border-top-left-radius: 1.75rem;
   border-top-right-radius: 1.75rem;
   border-bottom-left-radius: .25rem;
@@ -38,9 +35,7 @@
 
 .txt-input {
   margin: .5rem;
-  // width: rem(225px);
   height: rem(3px);
   border-radius: 2rem;
   padding: 1rem;
-
 }
