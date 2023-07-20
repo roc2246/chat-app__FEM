@@ -70,7 +70,6 @@ button {
   margin-left: auto; }
 
 .mssg {
-  margin: 0.25rem;
   border-radius: 0.5rem;
   width: max-content;
   height: auto;
@@ -81,7 +80,6 @@ button {
 .offer {
   padding: .25rem;
   width: 10rem;
-  margin-top: .5rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -102,20 +100,21 @@ button {
     border-bottom-right-radius: 1.5rem; }
 
 .phone-wrapper {
-  width: 14.0625rem;
+  width: max-content;
   border-top-left-radius: 1.75rem;
   border-top-right-radius: 1.75rem;
   border-bottom-left-radius: 1.75rem;
   border-bottom-right-radius: 1.75rem; }
 
 .recipient {
-  width: 14.0625rem;
+  width: 100%;
   border-top-left-radius: 1.75rem;
   border-top-right-radius: 1.75rem;
   padding-top: 2rem;
   padding-bottom: 1rem; }
 
 .txt-input {
+  width: 14.0625rem;
   border-radius: 2rem;
   padding: 1rem; }
 
