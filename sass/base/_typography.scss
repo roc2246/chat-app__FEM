@@ -2,7 +2,9 @@
   &--back{
     font-size: 1.5rem;
   }
-  
+  &--send{
+    font-weight: var(--font-weight-bold);
+  }
 }
 
 .username{

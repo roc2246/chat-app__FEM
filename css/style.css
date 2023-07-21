@@ -35,6 +35,9 @@ button {
 .btn--back {
   font-size: 1.5rem; }
 
+.btn--send {
+  font-weight: var(--font-weight-bold); }
+
 .username {
   font-weight: var(--font-weight-light); }
 
@@ -62,6 +65,11 @@ button {
   border-radius: 1rem;
   width: 0.625rem;
   height: 0.8125rem; }
+
+.btn--send {
+  border-radius: 1rem;
+  height: 1.5rem;
+  width: 1.5rem; }
 
 .avatar {
   width: 1.375rem;
@@ -133,9 +141,10 @@ button {
 
 .txt-input {
   margin: .5rem;
-  height: 0.1875rem;
+  height: 1.875rem;
   border-radius: 2rem;
-  padding: 1rem; }
+  padding-left: 1rem;
+  padding-right: .5rem; }
 
 .img-box {
   display: flex;
@@ -249,6 +258,10 @@ button {
 
 .btn--select {
   border-color: var(--color-white); }
+
+.btn--send {
+  color: var(--color-white);
+  background-color: var(--color-very-dark-desaturated-blue); }
 
 .txt-input {
   background-color: var(--color-white); }

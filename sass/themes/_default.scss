@@ -71,6 +71,10 @@
   &--select {
     border-color: var(--color-white);
   }
+  &--send{
+    color: var(--color-white);
+    background-color: var(--color-very-dark-desaturated-blue);
+  }
 }
 
 .txt-input {
