@@ -218,6 +218,8 @@ main {
   grid-column: 1/4; }
 
 main {
+  margin-left: auto;
+  margin-right: auto;
   width: clamp(19.375rem, 70vw, 51.25rem); }
 
 .btn--back {
