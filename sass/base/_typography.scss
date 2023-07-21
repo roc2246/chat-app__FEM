@@ -1,3 +1,14 @@
+.btn{
+  &--back{
+    font-size: 1.5rem;
+  }
+  
+}
+
+.username{
+  font-weight: var(--font-weight-light);
+}
+
 .availability {
   font-size: rem(6px);
 }
