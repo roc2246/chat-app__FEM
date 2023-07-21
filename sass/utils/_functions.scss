@@ -7,7 +7,7 @@
 }
 
 @function clamp($value1, $value2, $value3) {
-  @return #{"clamp(#{$value1}, #{$value2}, #{value3})"};
+  @return #{"clamp(#{$value1}, #{$value2}, #{$value3})"};
 }
 
 @function min($value1, $value2, $value3) {

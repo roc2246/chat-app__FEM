@@ -162,6 +162,12 @@ button {
   justify-content: space-between;
   align-items: center; }
 
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, max-content));
+  gap: 10rem;
+  justify-items: center; }
+
 .phone {
   display: grid; }
 
@@ -210,6 +216,9 @@ button {
 
 .txt-input {
   grid-column: 1/4; }
+
+main {
+  width: clamp(19.375rem, 70vw, 51.25rem); }
 
 .btn--back {
   color: var(--color-white); }
