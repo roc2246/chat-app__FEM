@@ -116,8 +116,6 @@ button {
 .phone {
   padding: 0.5rem;
   border-radius: 1.75rem;
-  border: solid;
-  border-color: red;
   width: max-content; }
   .phone__speaker {
     width: 8rem;
