@@ -59,6 +59,9 @@ button {
 .txt-input__mssg {
   font-size: 0.625rem; }
 
+.btn--back {
+  display: none; }
+
 .btn--select {
   border: solid;
   border-width: 0.0625rem;
