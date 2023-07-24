@@ -40,8 +40,16 @@
 }
 
 .info{
+  @media (min-width: $breakpoint) {
+    margin-top: rem(168px);
+  }
   & >*{
     text-align: center;
+  }
+  @media (min-width: $breakpoint) {
+    & >*{
+      text-align: left;
+    }
   }
   &__heading{
     font-size: rem(40px);

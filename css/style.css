@@ -59,8 +59,16 @@ button {
 .txt-input__mssg {
   font-size: 0.625rem; }
 
+@media (min-width: 995px) {
+  .info {
+    margin-top: 10.5rem; } }
+
 .info > * {
   text-align: center; }
+
+@media (min-width: 995px) {
+  .info > * {
+    text-align: left; } }
 
 .info__heading {
   font-size: 2.5rem;
@@ -174,8 +182,8 @@ button {
 
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12.5rem, max-content));
-  gap: 4.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, max-content));
+  gap: clamp(4.5rem, 10vw, 6rem);
   justify-items: center; }
 
 .phone {

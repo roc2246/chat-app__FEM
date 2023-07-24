@@ -1,74 +1,74 @@
-main{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(rem(200px), max-content));
-   gap: 4.5rem;
-    justify-items: center;
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(rem(300px), max-content));
+  gap: clamp(4.5rem, 10vw, 6rem);
+  justify-items: center;
 }
 
-.phone{
-    display: grid;
+.phone {
+  display: grid;
 }
 
-.phone__speaker{
-    z-index: 1;
+.phone__speaker {
+  z-index: 1;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.phone-wrapper {
+  z-index: 0;
+  grid-column: 1/4;
+  grid-row: 1/4;
+
+  display: grid;
+  grid-template-columns: repeat(3, rem(80px));
+}
+
+.recipient {
+  grid-column: 1/4;
+
+  display: grid;
+  .btn--back {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+  .avatar {
     grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  .username {
+    grid-column: 3/4;
     grid-row: 1/2;
+  }
+  .availability {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .btn--menu {
+    grid-column: 7/8;
+    grid-row: 1/3;
+  }
 }
 
-.phone-wrapper{
-    z-index: 0;
-    grid-column: 1/4;
-    grid-row: 1/4;
-
-    display: grid;
-    grid-template-columns: repeat(3, rem(80px));
-}
-
-.recipient{
-    grid-column: 1/4;
-
-    display: grid;
-    .btn--back{
-        grid-column: 1/2;
-        grid-row: 1/3;
-    }
-    .avatar{
-        grid-column: 2/3;
-        grid-row: 1/3;
-    }
-    .username{
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
-    .availability{
-        grid-column: 3/4;
-        grid-row: 2/3;
-    }
-    .btn--menu{
-        grid-column: 7/8;
-        grid-row: 1/3;
-    }
-}
-
-.mssg{
-    &--recipient{
-        grid-column: 1/3;
-    }
-    &--user{
-        grid-column: 2/4;
-    }
-}
-
-.img-box{
-    &--user{
-        grid-column: 2/4;
-    }
-}
-
-.offer{
+.mssg {
+  &--recipient {
     grid-column: 1/3;
+  }
+  &--user {
+    grid-column: 2/4;
+  }
 }
 
-.txt-input{
-    grid-column: 1/4;
+.img-box {
+  &--user {
+    grid-column: 2/4;
+  }
+}
+
+.offer {
+  grid-column: 1/3;
+}
+
+.txt-input {
+  grid-column: 1/4;
 }
