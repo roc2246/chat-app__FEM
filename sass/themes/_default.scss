@@ -7,12 +7,17 @@
   }
 }
 
-.background{
-  background-image: linear-gradient(
-        to bottom,
-        var(--color-light-magenta),
-        var(--color-light-violet)
-      );
+.background {
+  &--purple {
+    background-image: linear-gradient(
+      to bottom,
+      var(--color-light-magenta),
+      var(--color-light-violet)
+    );
+  }
+  &--clear{
+    background-color: var(--color-light-grayish-violet);
+  }
 }
 
 .phone {
@@ -80,7 +85,7 @@
   &--select {
     border-color: var(--color-white);
   }
-  &--send{
+  &--send {
     color: var(--color-white);
     background-color: var(--color-very-dark-desaturated-blue);
   }
@@ -93,11 +98,11 @@
   }
 }
 
-.info{
-  &__heading{
+.info {
+  &__heading {
     color: var(--color-very-dark-desaturated-blue);
   }
-  &__paragraph{
+  &__paragraph {
     color: var(--color-dark-grayish-violet);
   }
 }

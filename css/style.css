@@ -78,21 +78,24 @@ button {
   line-height: 1.875rem; }
 
 .background {
-  z-index: 0;
+  z-index: -1;
   position: absolute;
   height: clamp(31.25rem, 50vw, 43.75rem);
-  width: 28.125rem;
-  border-bottom-left-radius: 14.375rem;
-  border-bottom-right-radius: 14.375rem;
-  top: 0;
-  right: 50vw; }
-  @media (min-width: 500px) {
-    .background {
-      right: 70vw; } }
-  @media (min-width: 1441px) {
-    .background {
-      position: fixed;
-      right: calc(50% + 300px); } }
+  width: 28.125rem; }
+  .background--purple {
+    border-bottom-left-radius: 14.375rem;
+    border-bottom-right-radius: 14.375rem;
+    top: 0;
+    right: 50vw; }
+    @media (min-width: 500px) {
+      .background--purple {
+        right: 70vw; } }
+    @media (min-width: 1441px) {
+      .background--purple {
+        position: fixed;
+        right: calc(50% + 300px); } }
+  .background--clear {
+    display: none; }
 
 .btn--select {
   border: solid;
@@ -269,8 +272,11 @@ main {
 .btn--menu {
   color: var(--color-white); }
 
-.background {
+.background--purple {
   background-image: linear-gradient(to bottom, var(--color-light-magenta), var(--color-light-violet)); }
+
+.background--clear {
+  background-color: var(--color-light-grayish-violet); }
 
 .phone {
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.26);
