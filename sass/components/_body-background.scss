@@ -1,1 +1,19 @@
-body{}
+.background {
+  z-index: 0;
+  position: absolute;
+
+  height: clamp(rem(500px), 50vw, rem(700px));
+  width: rem(450px);
+  border-bottom-left-radius: rem(230px);
+  border-bottom-right-radius: rem(230px);
+
+  top: 0;
+  right: 50vw;
+  @media (min-width: 500px) {
+    right: 70vw;
+  }
+  @media (min-width: 1441px) {
+    position: fixed;
+    right: calc(50% + 300px);
+  }
+}

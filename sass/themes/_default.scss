@@ -7,8 +7,17 @@
   }
 }
 
+.background{
+  background-image: linear-gradient(
+        to bottom,
+        var(--color-light-magenta),
+        var(--color-light-violet)
+      );
+}
+
 .phone {
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.26);
+  background-color: var(--color-white);
 }
 
 .phone__speaker {
