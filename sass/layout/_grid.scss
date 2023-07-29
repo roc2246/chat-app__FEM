@@ -1,4 +1,4 @@
-main {
+.main-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(rem(300px), max-content));
   gap: clamp(4.5rem, 10vw, 6rem);

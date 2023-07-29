@@ -17,3 +17,8 @@ html{
     font-size: $font-size;
     font-family: $font-family;
 }
+
+body{
+  margin: 0;
+  z-index: -2;
+}

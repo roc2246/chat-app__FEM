@@ -22,6 +22,10 @@ html {
   font-size: 16px;
   font-family: "Rubik", sans-serif; }
 
+body {
+  margin: 0;
+  z-index: -2; }
+
 p {
   margin: 0; }
 
@@ -95,7 +99,17 @@ button {
         position: fixed;
         right: calc(50% + 300px); } }
   .background--clear {
-    display: none; }
+    border-top-left-radius: 14.375rem;
+    border-top-right-radius: 14.375rem;
+    bottom: 0;
+    left: 50vw; }
+    @media (min-width: 500px) {
+      .background--clear {
+        left: 70vw; } }
+    @media (min-width: 1441px) {
+      .background--clear {
+        position: fixed;
+        left: calc(50% + 300px); } }
 
 .btn--select {
   border: solid;
@@ -200,7 +214,7 @@ button {
   justify-content: space-between;
   align-items: center; }
 
-main {
+.main-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18.75rem, max-content));
   gap: clamp(4.5rem, 10vw, 6rem);
@@ -256,14 +270,18 @@ main {
   grid-column: 1/4; }
 
 main {
-  z-index: 1;
   position: relative;
+  overflow-x: hidden;
+  height: 100vh; }
+
+.main-wrapper {
+  z-index: 1;
   margin-left: auto;
   margin-right: auto;
   width: clamp(19.375rem, 84.9vw, 51.25rem);
   max-width: 32.8125rem; }
   @media (min-width: 802px) {
-    main {
+    .main-wrapper {
       max-width: unset; } }
 
 .btn--back {
