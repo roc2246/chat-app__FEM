@@ -280,10 +280,12 @@ main {
 
 .main-wrapper {
   z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 4rem auto;
   width: clamp(19.375rem, 84.9vw, 51.25rem);
   max-width: 32.8125rem; }
+  @media (min-width: 802px) {
+    .main-wrapper {
+      margin: 9.5rem auto; } }
   @media (min-width: 802px) {
     .main-wrapper {
       max-width: unset; } }
