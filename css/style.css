@@ -99,10 +99,14 @@ button {
         position: fixed;
         right: calc(50% + 300px); } }
   .background--clear {
+    display: none;
     border-top-left-radius: 14.375rem;
     border-top-right-radius: 14.375rem;
     bottom: 0;
     left: 50vw; }
+    @media (min-width: 700px) {
+      .background--clear {
+        display: block; } }
     @media (min-width: 500px) {
       .background--clear {
         left: 70vw; } }
