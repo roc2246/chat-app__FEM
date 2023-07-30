@@ -42,6 +42,7 @@ button {
   font-size: 1.5rem; }
 
 .btn--send {
+  font-size: 1.5rem;
   font-weight: var(--font-weight-bold); }
 
 .username {
@@ -125,9 +126,12 @@ button {
   height: 0.8125rem; }
 
 .btn--send {
-  border-radius: 1rem;
+  padding: 0;
+  width: 1.5rem;
   height: 1.5rem;
-  width: 1.5rem; }
+  border-radius: 1rem; }
+  .btn--send .send-icon {
+    height: 1.9rem; }
 
 .avatar {
   width: 1.375rem;
@@ -201,6 +205,11 @@ button {
   border-radius: 2rem;
   padding-left: 1rem;
   padding-right: 0.5rem; }
+
+.btn--send {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .img-box {
   display: flex;
