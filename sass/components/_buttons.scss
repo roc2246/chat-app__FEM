@@ -3,9 +3,6 @@
     border: solid;
     border-width: rem(1px);
     border-radius: 1rem;
-
-    width: rem(10px);
-    height: rem(13px);
   }
 
   &--send {
@@ -13,9 +10,8 @@
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 1rem;
-    .send-icon{
-    height: 1.9rem;
-
+    .send-icon {
+      height: 1.9rem;
     }
   }
 }
