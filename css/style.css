@@ -20,11 +20,13 @@
 
 html {
   font-size: 16px;
-  font-family: "Rubik", sans-serif; }
+  font-family: "Rubik", sans-serif;
+  height: 100%; }
 
 body {
   margin: 0;
-  z-index: -2; }
+  z-index: -2;
+  height: 100%; }
 
 p {
   margin: 0; }

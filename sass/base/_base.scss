@@ -16,9 +16,12 @@
 html{
     font-size: $font-size;
     font-family: $font-family;
-}
+    height: 100%;
+
+  }
 
 body{
   margin: 0;
   z-index: -2;
+  height: 100%;
 }
