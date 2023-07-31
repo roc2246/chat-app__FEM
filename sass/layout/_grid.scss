@@ -28,7 +28,7 @@
   grid-column: 1/4;
 
   display: grid;
-  grid-template-columns: rem(40px) rem(40px) auto auto;
+  grid-template-columns: rem(30px) rem(40px) auto auto;
   .btn--back {
     grid-column: 1/2;
     grid-row: 1/3;
