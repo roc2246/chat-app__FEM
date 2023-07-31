@@ -107,7 +107,7 @@ button {
     border-top-right-radius: 14.375rem;
     bottom: 0;
     left: 50vw; }
-    @media (min-width: 700px) {
+    @media (min-width: 802px) {
       .background--clear {
         display: block; } }
     @media (min-width: 500px) {

@@ -20,7 +20,7 @@
   }
   &--clear{
     display: none;
-    @media (min-width: 700px) {
+    @media (min-width: $breakpoint) {
     display: block;
     }
 
