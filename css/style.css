@@ -125,7 +125,8 @@ button {
   border: solid;
   border-width: 0.0625rem;
   border-radius: 1rem;
-  width: .25rem;
+  padding: 0;
+  width: .75rem;
   height: .75rem; }
 
 .btn--send {
