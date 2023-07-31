@@ -251,7 +251,7 @@ button {
 .recipient {
   grid-column: 1/4;
   display: grid;
-  grid-template-columns: 1.5rem 2.5rem auto auto; }
+  grid-template-columns: 2.5rem 2.5rem auto auto; }
   .recipient .btn--back {
     grid-column: 1/2;
     grid-row: 1/3; }
