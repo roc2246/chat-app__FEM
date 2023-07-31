@@ -1,4 +1,7 @@
 .btn {
+  &--back{
+    width: rem(25px);
+  }
   &--select {
     border: solid;
     border-width: rem(1px);

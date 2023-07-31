@@ -118,6 +118,9 @@ button {
         position: fixed;
         left: calc(50% + 300px); } }
 
+.btn--back {
+  width: 1.5625rem; }
+
 .btn--select {
   border: solid;
   border-width: 0.0625rem;
@@ -253,7 +256,7 @@ button {
 .recipient {
   grid-column: 1/4;
   display: grid;
-  grid-template-columns: 1.875rem 2.5rem auto auto; }
+  grid-template-columns: 1.5625rem 2.5rem auto auto; }
   .recipient .btn--back {
     grid-column: 1/2;
     grid-row: 1/3; }
