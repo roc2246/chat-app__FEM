@@ -119,7 +119,8 @@ button {
         left: calc(50% + 300px); } }
 
 .btn--back {
-  width: 1.5625rem; }
+  width: 1.5625rem;
+  padding: 0; }
 
 .btn--select {
   border: solid;
