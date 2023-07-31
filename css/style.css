@@ -121,7 +121,9 @@ button {
 .btn--select {
   border: solid;
   border-width: 0.0625rem;
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  width: .75rem;
+  height: .75rem; }
 
 .btn--send {
   padding: 0;
